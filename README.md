@@ -4,7 +4,7 @@
 Bu proje, yapay zeka dersi için hazırlanmış öğrenme asistanı uygulamasıdır. Uygulama, kullanıcıların seçtikleri konuları öğrenmelerine yardımcı olmak için yapay zeka destekli içerikler oluşturur. Kullanıcılar, istedikleri konuyu, seviyeyi ve anlatım türünü seçerek kişiselleştirilmiş öğrenme materyalleri elde edebilirler.
 
 ## Özellikler
-- Konuya özel detaylı anlatımlar$SELECTION_PLACEHOLDER$
+- Konuya özel detaylı anlatımlar
 - Gerçek hayat uygulamaları
 - Sık yapılan hatalar ve çözümleri
 - Örnek sorular ve açıklamaları
