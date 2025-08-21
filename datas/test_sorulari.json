@@ -1,0 +1,112 @@
+[
+    {
+        "soru": "Aşağıdakilerden hangisi bir veri yapısıdır?",
+        "secenekler": {
+            "A": "Algoritma",
+            "B": "Değişken",
+            "C": "Dizi",
+            "D": "Fonksiyon"
+        },
+        "dogru": "C",
+        "aciklama": "Dizi, birden fazla veriyi aynı isim altında saklamaya yarayan bir veri yapısıdır."
+    },
+    {
+        "soru": "Bağlı liste (linked list) veri yapısının özelliği nedir?",
+        "secenekler": {
+            "A": "Veriler bellekte ardışık olarak saklanır.",
+            "B": "Veriler bellekte rastgele yerlerde saklanır ve işaretçilerle birbirine bağlanır.",
+            "C": "Sadece aynı tür veriler saklanabilir.",
+            "D": "Sabit boyutta olmak zorundadır."
+        },
+        "dogru": "B",
+        "aciklama": "Bağlı listede her bir eleman (düğüm) bir sonraki elemanın adresini tutar, böylece veriler bellekte ardışık olmak zorunda değildir."
+    },
+    {
+        "soru": "Yığın (stack) veri yapısında hangi işlemler yapılır?",
+        "secenekler": {
+            "A": "Ekleme ve silme işlemleri her yerden yapılabilir.",
+            "B": "Sadece ekleme işlemi yapılır, silme işlemi yapılmaz.",
+            "C": "Ekleme ve silme işlemleri sadece üstten yapılır.",
+            "D": "Sadece silme işlemi yapılır, ekleme işlemi yapılmaz."
+        },
+        "dogru": "C",
+        "aciklama": "Yığın veri yapısında eleman ekleme (push) ve çıkarma (pop) işlemleri sadece en üstteki eleman üzerinden yapılır."
+    },
+    {
+        "soru": "Kuyruk (queue) veri yapısının çalışma prensibi nedir?",
+        "secenekler": {
+            "A": "LIFO (Last In First Out)",
+            "B": "FIFO (First In First Out)",
+            "C": "Rastgele erişim",
+            "D": "Sıralı erişim"
+        },
+        "dogru": "B",
+        "aciklama": "Kuyrukta ilk giren eleman ilk çıkar (FIFO), yani eleman ekleme arka taraftan, çıkarma ise ön taraftan yapılır."
+    },
+    {
+        "soru": "İkili arama ağacı (binary search tree) veri yapısının özelliği nedir?",
+        "secenekler": {
+            "A": "Her düğüm en fazla iki çocuğa sahip olabilir ve soldaki çocuk düğümün değerinden küçük, sağdaki çocuk düğümün değerinden büyük olmalıdır.",
+            "B": "Her düğüm en fazla üç çocuğa sahip olabilir.",
+            "C": "Düğümler rastgele sıralanır.",
+            "D": "Ağaç dengeli olmak zorunda değildir."
+        },
+        "dogru": "A",
+        "aciklama": "İkili arama ağacında her düğüm için soldaki alt ağaçtaki değerler düğümün değerinden küçük, sağdaki alt ağaçtaki değerler ise büyüktür."
+    },
+    {
+        "soru": "Aşağıdaki veri yapılarından hangisi doğrusal (linear) bir veri yapısıdır?",
+        "secenekler": {
+            "A": "Ağaç",
+            "B": "Graf",
+            "C": "Dizi",
+            "D": "İkili Arama Ağacı"
+        },
+        "dogru": "C",
+        "aciklama": "Dizi, elemanları doğrusal bir sırayla saklayan bir veri yapısıdır."
+    },
+    {
+        "soru": "Hash tablosu (hash table) veri yapısının avantajı nedir?",
+        "secenekler": {
+            "A": "Hızlı sıralama imkanı sağlar.",
+            "B": "Hızlı arama, ekleme ve silme işlemleri yapar.",
+            "C": "Verileri sıralı olarak saklar.",
+            "D": "Çok fazla bellek alanı gerektirir."
+        },
+        "dogru": "B",
+        "aciklama": "Hash tabloları, anahtar-değer çiftlerini saklar ve iyi bir hash fonksiyonu kullanıldığında hızlı arama, ekleme ve silme işlemleri sağlar."
+    },
+    {
+        "soru": "Graf (graph) veri yapısı hangi tür problemlerin çözümünde kullanılır?",
+        "secenekler": {
+            "A": "Sadece sıralama problemleri",
+            "B": "İki nokta arasındaki en kısa yolu bulma, ağ yapıları gibi problemler",
+            "C": "Sadece arama problemleri",
+            "D": "Sabit boyutlu veri saklama"
+        },
+        "dogru": "B",
+        "aciklama": "Graflar, nesneler arasındaki ilişkileri modellemek için kullanılır ve en kısa yol, ağ yapıları gibi çeşitli problemlerin çözümünde etkilidir."
+    },
+    {
+        "soru": "Aşağıdakilerden hangisi bir veri yapısı değildir?",
+        "secenekler": {
+            "A": "Dizi",
+            "B": "Bağlı Liste",
+            "C": "Yığın",
+            "D": "Değişken Tanımlama"
+        },
+        "dogru": "D",
+        "aciklama": "Değişken tanımlama bir veri yapısı değil, programlama dillerinde kullanılan bir özelliktir."
+    },
+    {
+        "soru": "İkili yığın (binary heap) veri yapısının kullanım alanlarından biri nedir?",
+        "secenekler": {
+            "A": "Sıralama algoritmaları (örneğin, heap sort)",
+            "B": "Dosya sistemleri",
+            "C": "Ağ protokolleri",
+            "D": "Grafik çizimi"
+        },
+        "dogru": "A",
+        "aciklama": "İkili yığın, özellikle heap sort gibi sıralama algoritmalarında kullanılır. Ayrıca öncelik kuyruğu uygulamalarında da kullanılır."
+    }
+]

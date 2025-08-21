@@ -1,0 +1,79 @@
+Soru 1: Aşağıdakilerden hangisi bir veri yapısıdır?
+A) Algoritma
+B) Değişken
+C) Dizi
+D) Fonksiyon
+Doğru Cevap: C
+Açıklama: Dizi, birden fazla veriyi aynı isim altında saklamaya yarayan bir veri yapısıdır.
+
+Soru 2: Bağlı liste (linked list) veri yapısının özelliği nedir?
+A) Veriler bellekte ardışık olarak saklanır.
+B) Veriler bellekte rastgele yerlerde saklanır ve işaretçilerle birbirine bağlanır.
+C) Sadece aynı tür veriler saklanabilir.
+D) Sabit boyutta olmak zorundadır.
+Doğru Cevap: B
+Açıklama: Bağlı listede her bir eleman (düğüm) bir sonraki elemanın adresini tutar, böylece veriler bellekte ardışık olmak zorunda değildir.
+
+Soru 3: Yığın (stack) veri yapısında hangi işlemler yapılır?
+A) Ekleme ve silme işlemleri her yerden yapılabilir.
+B) Sadece ekleme işlemi yapılır, silme işlemi yapılmaz.
+C) Ekleme ve silme işlemleri sadece üstten yapılır.
+D) Sadece silme işlemi yapılır, ekleme işlemi yapılmaz.
+Doğru Cevap: C
+Açıklama: Yığın veri yapısında eleman ekleme (push) ve çıkarma (pop) işlemleri sadece en üstteki eleman üzerinden yapılır.
+
+Soru 4: Kuyruk (queue) veri yapısının çalışma prensibi nedir?
+A) LIFO (Last In First Out)
+B) FIFO (First In First Out)
+C) Rastgele erişim
+D) Sıralı erişim
+Doğru Cevap: B
+Açıklama: Kuyrukta ilk giren eleman ilk çıkar (FIFO), yani eleman ekleme arka taraftan, çıkarma ise ön taraftan yapılır.
+
+Soru 5: İkili arama ağacı (binary search tree) veri yapısının özelliği nedir?
+A) Her düğüm en fazla iki çocuğa sahip olabilir ve soldaki çocuk düğümün değerinden küçük, sağdaki çocuk düğümün değerinden büyük olmalıdır.
+B) Her düğüm en fazla üç çocuğa sahip olabilir.
+C) Düğümler rastgele sıralanır.
+D) Ağaç dengeli olmak zorunda değildir.
+Doğru Cevap: A
+Açıklama: İkili arama ağacında her düğüm için soldaki alt ağaçtaki değerler düğümün değerinden küçük, sağdaki alt ağaçtaki değerler ise büyüktür.
+
+Soru 6: Aşağıdaki veri yapılarından hangisi doğrusal (linear) bir veri yapısıdır?
+A) Ağaç
+B) Graf
+C) Dizi
+D) İkili Arama Ağacı
+Doğru Cevap: C
+Açıklama: Dizi, elemanları doğrusal bir sırayla saklayan bir veri yapısıdır.
+
+Soru 7: Hash tablosu (hash table) veri yapısının avantajı nedir?
+A) Hızlı sıralama imkanı sağlar.
+B) Hızlı arama, ekleme ve silme işlemleri yapar.
+C) Verileri sıralı olarak saklar.
+D) Çok fazla bellek alanı gerektirir.
+Doğru Cevap: B
+Açıklama: Hash tabloları, anahtar-değer çiftlerini saklar ve iyi bir hash fonksiyonu kullanıldığında hızlı arama, ekleme ve silme işlemleri sağlar.
+
+Soru 8: Graf (graph) veri yapısı hangi tür problemlerin çözümünde kullanılır?
+A) Sadece sıralama problemleri
+B) İki nokta arasındaki en kısa yolu bulma, ağ yapıları gibi problemler
+C) Sadece arama problemleri
+D) Sabit boyutlu veri saklama
+Doğru Cevap: B
+Açıklama: Graflar, nesneler arasındaki ilişkileri modellemek için kullanılır ve en kısa yol, ağ yapıları gibi çeşitli problemlerin çözümünde etkilidir.
+
+Soru 9: Aşağıdakilerden hangisi bir veri yapısı değildir?
+A) Dizi
+B) Bağlı Liste
+C) Yığın
+D) Değişken Tanımlama
+Doğru Cevap: D
+Açıklama: Değişken tanımlama bir veri yapısı değil, programlama dillerinde kullanılan bir özelliktir.
+
+Soru 10: İkili yığın (binary heap) veri yapısının kullanım alanlarından biri nedir?
+A) Sıralama algoritmaları (örneğin, heap sort)
+B) Dosya sistemleri
+C) Ağ protokolleri
+D) Grafik çizimi
+Doğru Cevap: A
+Açıklama: İkili yığın, özellikle heap sort gibi sıralama algoritmalarında kullanılır. Ayrıca öncelik kuyruğu uygulamalarında da kullanılır.
