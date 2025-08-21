@@ -14,7 +14,8 @@ Bu proje, yapay zeka dersi için hazırlanmış öğrenme asistanı uygulamasıd
 ## Kurulum
 Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
-```bash
+```
+bash
 # Repository'yi klonlayın
 git clone https://github.com/kullaniciadi/yapay_zeka_odev.git
 
@@ -28,11 +29,13 @@ pip install -r requirements.txt
 ## Kullanım
 Projeyi şu şekilde çalıştırabilirsiniz:
 
-```bash
-python -m streamlit run .\streamlit_arayuz.py```
+```
+bash
+python -m streamlit run .\streamlit_arayuz.py
+```
 
 ## Dosya Yapısı
-```
+'''
 yapay_zeka_odev/
 ├── data/                # Veri dosyaları
 ├── models/              # Model dosyaları
@@ -40,7 +43,7 @@ yapay_zeka_odev/
 ├── src/                 # Kaynak kodlar
 ├── requirements.txt     # Gerekli kütüphaneler
 └── README.md            # Bu dosya
-```
+'''
 
 ## Gereksinimler
 Python 3.8+
